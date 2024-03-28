@@ -1,0 +1,567 @@
+.container {
+  margin: 0px;
+  padding: 1px;
+  /* width: 100px; */
+  overflow-x: auto;
+}
+.custom-table {
+  width: 100%;
+  font-size: 0.875rem;
+  text-align: left;
+  direction: ltr;
+  color: #4b5563;
+}
+.custom-table thead {
+  background-color: white;
+  font-size: large;
+}
+.custom-table th {
+  /* padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 8px;
+padding-bottom: 8px;
+cursor: pointer; */
+}
+
+.table-head {
+  padding-left: 7px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.table-head-name {
+  padding-left: 11px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  /* text-align: left;/ */
+}
+.table-head-price {
+  padding-left: 11px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.table-head-hour {
+  padding-left: 11px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.table-head-all-hour{
+    
+  padding-left: 11px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+.table-head-days{
+
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.table-head-market-cap{
+
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.table-head-volume{
+
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.table-head-circulating-supply{
+
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.table-head-last-days{
+
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.custom-table tbody tr {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e8f0;
+}
+.custom-table td {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.Circulating-Supply {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  align-items: center;
+}
+.Name-Table {
+  /* margin: 0px; */
+  display: flex;
+  column-gap: 6px;
+  cursor: pointer;
+}
+.Name-Table .Image {
+  border-radius: 9999px;
+  width: 5px;
+  height: 5px;
+  cursor: pointer;
+}
+.Name-Table .Name-Table-Inner {
+  margin: 0px;
+  display: flex;
+  width: 180px;
+  align-items: center;
+}
+.Name-Table .Name-Table-Inner .Name-Table-Text {
+  margin-left: 8px;
+  margin-top: 20px;
+}
+.Name-Table .Name-Table-Inner .Name-Table-Text-Two {
+  margin-left: 7px;
+  margin-top: 20px;
+  font-weight: 700;
+  color: lightslategray;
+}
+.Total-Volume {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.Total-Volume .Total-Volume-two {
+  margin: 0px;
+  font-weight: 500;
+  color: lightslategray;
+}
+
+.Circulating-Supply .Circulating-Supply-two {
+  margin: 0px;
+}
+.index-number {
+}
+
+@media (max-width: 1280px) {
+  .custom-table th {
+    /* padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    font-size: 14px; */
+  }
+  
+.table-head-name {
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    /* text-align: left;/ */
+    font-size: 14px;
+ 
+}
+  .table-head-price {
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+
+  }
+  
+  .table-head-hour {
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+
+  }
+  
+  .table-head-all-hour{
+      
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+
+  }
+  .table-head-days{
+  
+      padding-left: 11px;
+      padding-right: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      cursor: pointer;
+      font-size: 14px;
+
+  }
+  .table-head-market-cap{
+  
+      padding-left: 11px;
+      padding-right: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      cursor: pointer;
+      font-size: 14px;
+
+  }
+  .table-head-volume{
+  
+      padding-left: 11px;
+      padding-right: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      cursor: pointer;
+      font-size: 13px;
+
+  }
+  .table-head-circulating-supply{
+  
+      padding-left: 11px;
+      padding-right: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      cursor: pointer;
+      font-size: 13px;
+
+  }
+  .table-head-last-days{
+  
+      padding-left: 12px;
+      padding-right: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      cursor: pointer;
+      font-size: 14px;
+
+  }
+}
+
+@media (max-width: 1024px) {
+    .table-head-name {
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        /* text-align: left;/ */
+        font-size: 14px;
+     
+    }
+      .table-head-price {
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    
+      }
+      
+      .table-head-hour {
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    
+      }
+      
+      .table-head-all-hour{
+          
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    
+      }
+      .table-head-days{
+      
+          padding-left: 11px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 14px;
+    
+      }
+      .table-head-market-cap{
+      
+          padding-left: 11px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 14px;
+    
+      }
+      .table-head-volume{
+      
+          padding-left: 31px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 13px;
+    
+      }
+      .table-head-circulating-supply{
+      
+          padding-left: 11px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 13px;
+    
+      }
+      .table-head-last-days{
+      
+          padding-left: 12px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 14px;
+    
+      }
+    .Total-Volume{
+        /* padding-left: 25px; */
+    }
+}
+
+@media (max-width: 800px) {
+    .table-head-name {
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        /* text-align: left;/ */
+        font-size: 14px;
+     
+    }
+      .table-head-price {
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    
+      }
+      
+      .table-head-hour {
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    
+      }
+      
+      .table-head-all-hour{
+          
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    
+      }
+      .table-head-days{
+      
+          padding-left: 11px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 14px;
+    
+      }
+      .table-head-market-cap{
+      
+          padding-left: 11px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 14px;
+    
+      }
+      .table-head-volume{
+        padding-left: 31px;
+          /* padding-left: 11px; */
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 13px;
+    
+      }
+      .table-head-circulating-supply{
+      
+          padding-left: 11px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 13px;
+    
+      }
+      .table-head-last-days{
+      
+          padding-left: 12px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 14px;
+    
+      }
+      .custom-table td{
+        padding-left: 8px;
+        padding-right: 9px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        cursor: pointer;
+      }
+}
+
+@media (max-width: 500px) {
+    .table-head-name {
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        /* text-align: left;/ */
+        font-size: 14px;
+     
+    }
+      .table-head-price {
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    
+      }
+      
+      .table-head-hour {
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    
+      }
+      
+      .table-head-all-hour{
+          
+        padding-left: 11px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    
+      }
+      .table-head-days{
+      
+          padding-left: 11px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 14px;
+    
+      }
+      .table-head-market-cap{
+      
+          padding-left: 11px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 14px;
+    
+      }
+      .table-head-volume{
+      
+          padding-left: 11px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 13px;
+    
+      }
+      .table-head-circulating-supply{
+      
+          padding-left: 11px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 13px;
+    
+      }
+      .table-head-last-days{
+      
+          padding-left: 12px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          cursor: pointer;
+          font-size: 14px;
+    
+      }
+
+      .custom-table td{
+        padding-left: 9px;
+        padding-right: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        cursor: pointer;
+      }    
+}

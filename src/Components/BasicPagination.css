@@ -1,0 +1,519 @@
+.pagination-main {
+  display: flex;
+  align-items: center;
+}
+.pagination-container {
+  display: flex;
+  margin: 20px 0px 0px;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.pagination-number {
+  margin-top: 10px;
+  margin-right: 12px;
+  /* background-color: aqua; */
+}
+.pagination-item {
+  margin: 0px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+.pagination-item.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+.pagination-prev,
+.pagination-next {
+  /* margin: 0 5px;// */
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+.pagination-prev:disabled,
+.pagination-next:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.sorted-pagination .pagination-sort {
+  margin-top: 10px;
+}
+.sorted-pagination {
+  /* display: flex; */
+  /* position: relative; */
+/* background-color: black; */
+  width: 100%;
+  position: relative;
+  /* color: white; */
+}
+.sort-selection-container {
+  display: flex;
+  align-items: center;
+}
+.sort-selection-container label {
+  margin-right: 10px;
+}
+.sort-selection {
+  padding: 5px;
+  border-radius: 5px;
+  /* border: 1px solid #ccc; */
+  font-size: 14px;
+  background: rgb(239, 242, 245);
+  /* color: black; */
+}
+.show-rows {
+  margin: 0px;
+  padding-right: 9px;
+  color: grey;
+}
+
+.pagination-list {
+  /* background-color: blue; */
+}
+
+.pagination-prev {
+  /* background-color: blue; */
+}
+.pagination-item {
+  /* background-color: blue; */
+}
+@media (max-width: 1280px) {
+  .pagination-main {
+    height: 40px;
+    /* width: 0px; */
+  }
+
+  .pagination-list {
+    /* background-color: blue; */
+  }
+  .pagination-prev {
+    /* background-color: blue; */
+  }
+  .pagination-item {
+    /* background-color: blue; */
+  }
+  .pagination-container {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-around;
+  }
+  .pagination-number {
+    margin-top: 10px;
+  }
+  .sorted-pagination .pagination-sort {
+    margin-top: 10px;
+  }
+  .sorted-pagination {
+    /* display: flex; */
+    /* position: relative; */
+
+    width: 100%;
+    position: relative;
+    color: white;
+  }
+  .sort-selection-container {
+    display: flex;
+    align-items: center;
+  }
+  .sort-selection-container label {
+    margin-right: 10px;
+    /* background-color: red; */
+  }
+  .sort-selection {
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    font-size: 14px;
+    background: rgb(239, 242, 245);
+    margin-right: 6px;
+  }
+  .show-rows {
+    margin: 0px;
+    padding-right: 4px;
+    color: grey;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pagination-main {
+    height: 40px;
+    width: 319px;
+  }
+  .pagination-container {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+  }
+  .pagination-number {
+    margin-top: 10px;
+  }
+  .sorted-pagination .pagination-sort {
+    margin-top: 10px;
+  }
+  .sorted-pagination {
+    /* display: flex; */
+    /* position: relative; */
+
+    width: 100%;
+    position: relative;
+    color: white;
+  }
+  .sort-selection-container {
+    display: flex;
+    align-items: center;
+  }
+  .sort-selection-container label {
+    margin-right: 10px;
+    background-color: red;
+  }
+  .sort-selection {
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    font-size: 14px;
+    background: rgb(239, 242, 245);
+    margin-right: 0px;
+  }
+  .show-rows {
+    margin: 0px;
+    padding-right: 4px;
+    color: grey;
+  }
+}
+
+@media (max-width: 870px) {
+  .pagination-main {
+    height: 40px;
+    width: 290px;
+  }
+  .pagination-container {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-around;
+  }
+  .pagination-number {
+    margin-top: 10px;
+    /* margin-right: 0px; */
+    /* margin-left: 25px; */
+  }
+  .sorted-pagination .pagination-sort {
+    margin-top: 10px;
+  }
+  .sorted-pagination {
+    /* display: flex; */
+    /* position: relative; */
+
+    width: 100%;
+    position: relative;
+    color: white;
+  }
+  .sort-selection-container {
+    display: flex;
+    align-items: center;
+  }
+  .sort-selection-container label {
+    margin-right: 10px;
+    background-color: red;
+  }
+  .sort-selection {
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    font-size: 14px;
+    background: rgb(239, 242, 245);
+    margin-right: 3px;
+  }
+  .show-rows {
+    width: 88px;
+    margin: 0px;
+    padding-right: 4px;
+    color: grey;
+  }
+}
+
+@media (max-width: 735px) {
+  .pagination-main {
+    height: 40px;
+    width: 237px;
+  }
+  .pagination-container {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-around;
+  }
+  .pagination-number {
+    margin-top: 10px;
+    font-size: 14px;
+    margin: 0px;
+    padding-left: 75px;
+  }
+  .sorted-pagination .pagination-sort {
+    margin-top: 10px;
+  }
+  .sorted-pagination {
+    /* display: flex; */
+    /* position: relative; */
+
+    width: 100%;
+    position: relative;
+    color: white;
+  }
+  .sort-selection-container {
+    display: flex;
+    align-items: center;
+    width: 204px;
+  }
+  .sort-selection-container label {
+    margin-right: 10px;
+    background-color: red;
+  }
+  .sort-selection {
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 12px;
+    background: rgb(239, 242, 245);
+    margin-right: 3px;
+  }
+  .show-rows {
+    width: 88px;
+    margin: 0px;
+    padding-right: 2px;
+    color: grey;
+    font-size: 14px;
+  }
+
+  .pagination-list {
+    /* background-color: blue !important; */
+  }
+
+  .pagination-prev {
+    padding: 2px 3px;
+  }
+  .pagination-item {
+    /* background-color: blue; */
+    padding: 2px 3px;
+
+    width: 32px;
+    /* font-size: 12px; */
+  }
+  .pagination-next {
+    padding: 2px 3px;
+    /* font-size: 15px; */
+
+    /* width: 23px; */
+    /* background-color: blue; */
+  }
+}
+@media (max-width: 690px) {
+  .pagination-main {
+    height: 40px;
+    width: 265px;
+
+  }
+  .pagination-container {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+    width: 686px;
+  }
+  .pagination-number {
+    margin-top: 0px; 
+    font-size: 11px;
+    padding-left: 9px;
+  }
+  .sorted-pagination .pagination-sort {
+    margin-top: 10px;
+  }
+  .sorted-pagination {
+    /* display: flex; */
+    /* position: relative; */
+
+    width: 100%;
+    position: relative;
+    color: white;
+  }
+  .sort-selection-container {
+    display: flex;
+    align-items: center;
+    width: 162px;
+  }
+  .sort-selection-container label {
+    margin-right: 10px;
+    background-color: red;
+  }
+  .sort-selection {
+    padding: 4px;
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    font-size: 12px;
+    background: rgb(239, 242, 245);
+    margin-right: 3px;
+    width: 42px;
+    padding-left: 1px;
+font-size: 10px;
+  }
+  .show-rows {
+    width: 70px;
+    margin: 0px;
+    padding-right: 0px;
+    color: grey;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 580px) {
+  .pagination-main {
+    /* height: 40px; */
+    width: 100%;
+    padding-right: 0px;
+    order: 1;
+    height: 40px; 
+    margin: 0px;
+    margin-left: 143px;
+    width: 52%;
+    padding: 10px;
+    border: 3px;
+    /* padding-right: 0px; */
+    /* order: 1; */
+  }
+  .pagination-container {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 468px;
+  }
+  .pagination-number {
+    margin-top: 0px;
+    padding-left: 0px;
+    order: 2; 
+    /* width: 100%; */
+    width: calc(50% - 5px);
+  }
+  .sorted-pagination .pagination-sort {
+    margin-top: 10px;
+  }
+  .sorted-pagination {
+    /* display: flex; */
+    /* position: relative; */
+    width: 50% ;
+    /* width: 100%; */
+    position: relative;
+    color: white;
+    order: 3;
+  }
+  .sort-selection-container {
+    display: flex;
+    align-items: center;
+    width: 148px;
+    order: 2;  
+    /* width: 100%; */
+  }
+  .sort-selection-container label {
+    margin-right: 10px;
+    background-color: red;
+  }
+  .sort-selection {
+    padding: 4px;
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    font-size: 12px;
+    background: rgb(239, 242, 245);
+    margin-right: 3px;
+    width: 40px;
+    order: 2;
+  }
+  .show-rows {
+    width: 77px;
+    margin: 0px;
+    padding-right: 0px;
+    color: grey;
+    font-size: 13px;
+    order: 3;
+  }
+  
+  .pagination-prev {
+    padding: 0px 0px;
+    font-size: 13px;
+
+  }
+  .pagination-item {
+    /* background-color: blue; */
+    padding: 0px 0px;
+    width: 25px;
+    font-size: 13px;
+  }
+  .pagination-next {
+    padding: 0px 0px;
+    font-size: 13px;
+
+    padding-right: 3px;
+    /* width: 23px; */
+    /* background-color: blue; */
+  }
+}
+
+@media (max-width: 500px) {
+  .pagination-main {
+    /* height: 40px; */
+    /* width: 220px; */
+    margin-left: 0px;
+    /* width: 100%; */
+    padding-right: 0px;
+    order: 1;
+    height: 40px; 
+    margin: 0px;
+    /* margin-left: 132px; */
+    width: 52%;
+    padding: 10px;
+    border: 3px;
+  }
+  .pagination-container {
+    display: flex;
+    margin: 20px 0px;
+    justify-content: center;
+    width: 410px;
+  }
+  .pagination-number {
+    margin-top: 0px;
+    width: 227px;
+  }
+  .sorted-pagination .pagination-sort {
+    margin-top: 10px;
+  }
+  .sorted-pagination {
+    /* display: flex; */
+    /* position: relative; */
+
+    width: 100%;
+    position: relative;
+    color: white;
+  }
+  .sort-selection-container {
+    display: flex;
+    align-items: center;
+    width: 164px;
+  }
+  .sort-selection-container label {
+    margin-right: 10px;
+    background-color: red;
+  }
+  .sort-selection {
+    padding: 1px;
+    border-radius: 10px;
+    /* border: 1px solid #ccc; */
+    font-size: 12px;
+    background: rgb(239, 242, 245);
+    margin-right: 0px;
+ /* background-color: black/; */
+  }
+  .show-rows {
+    margin: 0px;
+    padding-right: 0px;
+    color: grey;
+  }
+}
