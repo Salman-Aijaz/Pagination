@@ -15,7 +15,7 @@ const MakeChart = ({sparkline}) => {
     const sparklineData = sparkline.sparkline_in_7d.price;
           
 const priceChangePerHour= sparkline.price_change_percentage_24h
-console.log(priceChangePerHour)
+// console.log(priceChangePerHour)
 
 if(priceChangePerHour>0){
   setColorChart("blue")
@@ -59,7 +59,7 @@ else{
     <div>
 
     {
-      chart && <Line data={chart} />
+      chart && <Line data={chart}  style={{"height":"200px","width":"280px"}}/>
     }
     </div>
   )

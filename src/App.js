@@ -23,7 +23,6 @@ function App() {
 // console.log(page)
 const pages= page -1
 const startIndex =Math.max(0,pages*itemsPerPage) //INITIAL PAGE IS 1 CALC 1-1 * 5 AND 2ND CALC 2-1 *5
-    // const startIndex = (page - 1) * itemsPerPage;   
     const endIndex = startIndex + itemsPerPage;   //0+5 =5 AT FIRST AND AT SECOND 5+5=10 
   // console.log("START INDEX",startIndex)
   const dataSlice = data.slice(startIndex, endIndex);   //0 SE START 5 P KHATAM 5 SE START 10 P KHATAM 
